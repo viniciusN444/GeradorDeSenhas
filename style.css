@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #18181b;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.logo {
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.container-input{
+    max-width: 480px;
+    margin: 14px 0;
+}
+
+.container-input span{
+    color: white;
+    font-size: 22px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #dfdfdf;
+    height: 18px;
+    outline: none;
+    margin-top: 8px;
+}
